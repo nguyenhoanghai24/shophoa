@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Tin tức sản phẩm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    
+<div class ="container-fluid" style="border: 1px black solid;">
+  
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hoa khai trương</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Bó hoa tươi
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Hoa tươi 8/3</a></li>
+            <li><a class="dropdown-item" href="#">Hoa tặng mẹ</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Hoa tặng bạn gái</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" >Giỏ hoa</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hoa cưới
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Trang trí xe hoa</a></li>
+            <li><a class="dropdown-item" href="#">Bó hoa cầm tay cô dâu</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Hoa Trang trí</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" >Tin tức</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" >Liên hệ</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+         <img src="image/image7.jpg" class="card-img-top" alt="...">
+        <a href="#" class="btn btn-primary">Mô tả</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Hoa tươi</h5>
+        <p class="card-text">1.000.000 VNĐ</p>
+        <p class="card-text">Hoa tươi – Món quà thân thương và ý nghĩa này ắt hẳn sẽ làm cho trái tim nhiều cô nàng cảm thấy loạn nhịp và hạnh phúc ngất ngây. Dù là người yêu, bạn bè hay bà, cô, mẹ,…Mỗi bông hồng đỏ tươi thắm tượng trưng cho những lời chúc yêu thương chân thành và sâu sắc nhất. Nếu bạn đang băn khoăn không biết nên tặng món quà gì vào dịp sinh nhật một nửa của mình thì Sắc đỏ ngọt ngào chính là quà tặng ý nghĩa và thân thương nhất để bạn gửi đến người ấy!</p>
+        <a href="#" class="btn btn-primary">Mua ngay</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card" >
+      <div class="card-body" style="width: 30rem;">
+        <h5 class="card-title">Cước phí vận chuyển</h5>
+        <p class="card-text">Chi phí vận chuyển</p>
+        <td>Tỉnh thành</td><td>
+        <select name="hometown"> 
+          <option value="1">An Giang </option>
+<option value="2">Bà Rịa - Vũng Tàu </option>
+<option value="3">Bắc Giang </option>
+<option value="4">Bắc Kạn </option>
+<option value="5">Bạc Liêu </option>
+<option value="6">Bắc Ninh </option>
+<option value="7">Bến Tre </option>
+<option value="8">Bình Định </option>
+<option value="9">Bình Dương </option>
+<option value="10">Bình Phước </option>
+<option value="11">Bình Thuận </option>
+<option value="12">Cà Mau </option>
+<option value="13">Cao Bằng </option>
+<option value="14">Đắk Lắk </option>
+<option value="15">Đắk Nông </option>
+<option value="16">Điện Biên </option>
+<option value="17">Đồng Nai </option>
+<option value="18">Đồng Tháp </option>
+<option value="19">Gia Lai </option>
+<option value="20">Hà Giang </option>
+<option value="21">Hà Nam </option>
+<option value="22">Hà Tĩnh </option>
+<option value="23">Hải Dương </option>
+<option value="24">Hậu Giang </option>
+<option value="25">Hòa Bình </option>
+<option value="26">Hưng Yên </option>
+<option value="27">Khánh Hòa </option>
+<option value="28">Kiên Giang </option>
+<option value="29">Kon Tum </option>
+<option value="30">Lai Châu </option>
+<option value="31">Lâm Đồng </option>
+<option value="32">Lạng Sơn </option>
+<option value="33">Lào Cai </option>
+<option value="34">Long An </option>
+<option value="35">Nam Định </option>
+<option value="36">Nghệ An </option>
+<option value="37">Ninh Bình </option>
+<option value="38">Ninh Thuận </option>
+<option value="39">Phú Thọ </option>
+<option value="40">Quảng Bình </option>
+<option value="41">Quảng Nam </option>
+<option value="42">Quảng Ngãi </option>
+<option value="43">Quảng Ninh </option>
+<option value="44">Quảng Trị </option>
+<option value="45">Sóc Trăng </option>
+<option value="46">Sơn La </option>
+<option value="47">Tây Ninh </option>
+<option value="48">Thái Bình </option>
+<option value="49">Thái Nguyên </option>
+<option value="50">Thanh Hóa </option>
+<option value="51">Thừa Thiên Huế </option>
+<option value="52">Tiền Giang </option>
+<option value="53">Trà Vinh </option>
+<option value="54">Tuyên Quang </option>
+<option value="55">Vĩnh Long </option>
+<option value="56">Vĩnh Phúc </option>
+<option value="57">Yên Bái </option>
+<option value="58">Phú Yên </option>
+<option value="59">Cần Thơ </option>
+<option value="60">Đà Nẵng </option>
+<option value="61">Hải Phòng </option>
+<option value="62">Hà Nội </option>
+<option value="63">TP HCM </option>
+
+
+        </select>
+      </td></tr> 
+
+      <div><tr><td>Địa chỉ </td><td><input type="text" name="adress" value =""></td></tr></div>
+      
+      <div><tr><td>Chi phí </td><td><input type="text" name="adress" value =""></td></tr></div>
+        <a href="#" class="btn btn-primary">Go</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+<footer style="text-align: center;">
+  
+  <h5>Sản phẩm tương tự</h5>
+</footer>
+
+<div class="row">
+  <div class="col-md-6 col-lg-4 col-xl">
+    <div class="card" style="width: 18rem;">
+      <img src="image/image20.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bó hoa 01</h5>
+        <p class="card-text">1.000.000 VNĐ</p>
+        <a href="#" class="btn btn-primary">Mua Ngay</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4 col-xl">
+    <div class="card" style="width: 18rem;">
+      <img src="image/image21.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bó Hoa 02</h5>
+        <p class="card-text">1.000.000 VNĐ</p>
+        <a href="#" class="btn btn-primary">Mua Ngay</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4 col-xl">
+    <div class="card" style="width: 18rem;">
+      <img src="image/image22.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bó Hoa 03</h5>
+        <p class="card-text">1.000.000 VNĐ</p>
+        <a href="#" class="btn btn-primary">Mua Ngay</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-4 col-xl">
+    <div class="card" style="width: 18rem;">
+      <img src="image/image23.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bó Hoa 04</h5>
+        <p class="card-text">1.000.000 VNĐ</p>
+        <a href="#" class="btn btn-primary">Mua Ngay</a>
+      </div>
+    </div>
+  </div>
+
+
+<!--Pagination-->
+  <ul class="pagination" >
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+<footer style="text-align: center;">
+  
+  <h5>DANH SÁCH CỬA HÀNG</h5>
+</footer>
+
+<!--Table-->
+<table class="table table-sm table-dark">
+  <div class="table-responsive">
+    <table class="table align-middle">
+      
+      <tbody>
+        
+        <tr class="align-bottom">
+          
+        </tr>
+        <tr>
+          <td>
+            <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">SHOP HOA TP. HCM</h5>
+    
+    <p class="card-text">Địa chỉ: Ngã Tư Hàng Xanh, Quận Bình Thạnh- Chi nhánh 2: 717 Trường Sơn, P.2, Quận Tân Bình.</p>
+      </div>
+</div>
+</td>
+          <td>
+            <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">SHOP HOA HÀ NỘI</h5>
+    
+    <p class="card-text">Địa chỉ: 50 Trần Thánh Tông, Hà Nội.</p>
+      </div>
+</div>
+</td>
+          <td class="align-top"><div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">SHOP HOA ĐÀ NẴNG</h5>
+    
+    <p class="card-text">Địa chỉ: 388 Ngô Quyền, Đà Nẵng.</p>
+      </div>
+</div>
+</td>
+          <td>
+            <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">SHOP HOA NHA TRANG</h5>
+    
+    <p class="card-text">Địa chỉ: 112 Đường 2/4, Phường Vạn Thắng, TP. Nha Trang - 45 Lê Duẩn gần bến xe Cam Ranh</p>
+      </div>
+</div>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</table>
+
+
+
+<!--Socical-->
+<div class="container" style="text-align: center;">
+  <i class="bi bi-facebook" style="font-size: 50px;color: blue"></i>
+  <i class="bi bi-youtube" style="font-size: 50px;color: red"></i>
+  <i class="bi bi-twitter"style="font-size: 50px;color: #1DA1F2"></i>
+  <i class="bi bi-instagram"style="font-size: 50px;color: #8a3ab9"></i>
+</div>
+
+
+<!--Footer-->
+<footer style="text-align: center;">
+  
+  Bản quyền thuộc về Hoàng Hải.
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
